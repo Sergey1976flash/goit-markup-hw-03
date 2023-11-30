@@ -55,26 +55,30 @@ text-transform: uppercase;
 .menu:focus {
     color: #404BBF;
 }
-.contacts {
-    font-style: normal;
-    justify-content: flex-end;
-  }
+
+ 
   .contacts-list {
-    display: none;
-    gap: 40px;
-  }
-  .contacts-link {
     text-decoration: none;
-    display: block;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    
-  } 
-.contacts:hover,
-.contacts:focus  {
+    color: #434455  
+  }
+  .contacts-list:hover,
+  .contacts-list:focus  {
+color:#404BBF;
+  }
+  .contacts-link {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455  
+  }
+.contacts-link:hover,
+.contacts-link:focus  {
 color:#404BBF;
 }
 .team {
