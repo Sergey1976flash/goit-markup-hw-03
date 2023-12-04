@@ -12,7 +12,7 @@ background: #FFF;
  /*header*/
  .header {
     border-bottom: 1px solid #e7e9fc;
-    align-content:stretch
+
 }
 .container-header {
     display: flex;
@@ -106,6 +106,7 @@ text-transform: uppercase;
     letter-spacing: 0.02em;
     color: #434455;
     padding: 24px 0;
+
   }
 .contacts-link:hover,
 .contacts-link:focus  {
@@ -124,6 +125,7 @@ color:#404BBF;
 
 .container .container-section-one {
     display: inline-flex;
+    flex-wrap: wrap;
 }
 .section-main-text {
     color: var(--WHITE, #FFF);
@@ -132,7 +134,7 @@ color:#404BBF;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.07px; /* 107.143% */
+    line-height: 1.07px;
     letter-spacing: 0.02em;    
 }
 .button {
