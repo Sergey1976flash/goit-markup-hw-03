@@ -3,6 +3,42 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+/*.container {
+    width: 1440px;
+height: 3300px;
+background: #FFF;
+}*/
+
+ /*header*/
+ .header {
+    border-bottom: 1px solid #e7e9fc;
+    align-content:stretch
+}
+.container-header {
+    display: flex;
+
+  }
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .navigation-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+ .container-header-cont {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+ }  
 .logo-one {
     color: #4D5AE5;
     font-family:"Raleway", sans-serif;
@@ -43,47 +79,122 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+.navigation-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0 15px;
+}
 .menu {
-    color:#2E2F42;
+    text-decoration: none;
+    display: block;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5; 
+    font-weight: 500; 
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
 }
 .menu:hover,
 .menu:focus {
     color: #404BBF;
 }
-
- 
-  .contacts-list {
-    text-decoration: none;
+.contacts {
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455  
+    justify-content: flex-end;
   }
-  .contacts-list:hover,
-  .contacts-list:focus  {
-color:#404BBF;
+  .contacts-list {
+    display: flex;
+    gap: 40px;
   }
   .contacts-link {
     text-decoration: none;
+    display: block;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455  
+    color: #434455;
+    padding: 24px 0;
   }
 .contacts-link:hover,
 .contacts-link:focus  {
 color:#404BBF;
 }
-.team {
+.section-three {
     background-color:#F4F4FD;
 }
+/*SECTION 1*/
+
+.section-one {
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
+  }
+
+.container .section-one-cont {
+    display: inline-flex;
+}
+.section-main-text {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07px; /* 107.143% */
+    letter-spacing: 0.02em;    
+}
+.button {
+    display: inline-flex;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button:hover,
+.button:focus {
+background-color: #404BBF;
+}
+/*SECTION 2*/
+.container section-two-cont {
+    width: 1440px;
+    height: 3300px;
+    background: #FFF;
+}
+.list-header {
+    color:#2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.list-text {
+    color:#434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*SECTION 3*/
 .team-title {
 color:#2E2F42;
 text-align: center;
@@ -119,21 +230,7 @@ background-color:#FFFFFF ;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.button {
-    color:#FFF;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    background-color:#4D5AE5;
-    cursor: pointer;
-}
-.button:hover,
-.button:focus {
-background-color: #404BBF;
-}
+
 .portfolio-title {
 color:#2E2F42;
 text-align: center;
@@ -176,24 +273,7 @@ background: #2E2F42;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
-.list-header {
-    color:#2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.list-text {
-    color:#434455;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
 .footer {
 background-color:#2E2F42;
 }
