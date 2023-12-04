@@ -9,7 +9,8 @@ height: 3300px;
 background: #FFF;
 }*/
 
- /*header*/
+ /*HEADER*/
+ 
  .header {
     border-bottom: 1px solid #e7e9fc;
 
@@ -289,7 +290,7 @@ background-color:#FFFFFF ;
     list-style: none;
 }
 
-.benefits-four .team-item {
+.benefits-four .portfolio-item {
     width: calc((100% - 32px) / 3);
 }
 .portfolio-title {
