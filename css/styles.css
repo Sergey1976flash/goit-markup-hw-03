@@ -163,11 +163,26 @@ background-color: #404BBF;
 
 /*SECTION 2*/
 
-.container section-two-cont {
+.section-two {
     width: 1440px;
-    height: 3300px;
+    height: 240px;
     background: #FFF;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
+.benefits {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .benefits .item {
+        width: calc((100% - 32px) / 3);
+      }
+  
 .list-header {
     color:#2E2F42;
     font-family: Roboto;
