@@ -121,6 +121,10 @@ color:#404BBF;
     background-color: #2e2f42;
     text-align: center;
     padding: 188px 0;
+    width: 1440px;
+height: 600px;
+
+
   }
 
 .container .container-section-one {
@@ -168,6 +172,7 @@ background-color: #404BBF;
 .section-two {
     width: 1440px;
     height: 240px;
+    flex-shrink: 0;
     background: #FFF;
     max-width: 1440px;
     margin: 0 auto;
@@ -204,7 +209,31 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
 }
 /*SECTION 3*/
-.team-title {
+
+
+ .section-three {
+    background: var(--CLOUD, #F4F4FD);
+    width: 1128px;
+height: 1000px;
+flex-shrink: 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+    .benefits-three {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 16px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+   
+    .benefits-three .team-item {
+        width: calc((100% - 32px) / 3);
+    }
+
+ .team-title {   
 color:#2E2F42;
 text-align: center;
 font-family: Roboto;
@@ -239,7 +268,30 @@ background-color:#FFFFFF ;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/*SECTION 4*/
 
+
+.portfolio {
+    width: 1128px;
+    height: 1000px;
+    flex-shrink: 0;
+    background: #FFF;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;   
+}
+.benefits-four {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.benefits-four .team-item {
+    width: calc((100% - 32px) / 3);
+}
 .portfolio-title {
 color:#2E2F42;
 text-align: center;
