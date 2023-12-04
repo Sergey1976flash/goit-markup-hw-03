@@ -28,17 +28,7 @@ background: #FFF;
     gap: 40px;
     align-items: center;
   }
- .container-header-cont {
-    width: 1440px;
-    height: 72px;
-    flex-shrink: 0;
-    box-sizing: border-box;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
-    display: inline-flex;
-align-items: flex-start;
-gap: 40px;
- }  
+ 
 .logo-one {
     color: #4D5AE5;
     font-family:"Raleway", sans-serif;
@@ -132,7 +122,7 @@ color:#404BBF;
     padding: 188px 0;
   }
 
-.container .section-one-cont {
+.container .container-section-one {
     display: inline-flex;
 }
 .section-main-text {
@@ -170,7 +160,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 .button:focus {
 background-color: #404BBF;
 }
+
 /*SECTION 2*/
+
 .container section-two-cont {
     width: 1440px;
     height: 3300px;
