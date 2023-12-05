@@ -171,6 +171,19 @@ background-color: #404BBF;
 
 /*SECTION 2*/
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-two {
     width: 1440px;
     height: 240px;
@@ -183,13 +196,15 @@ background-color: #404BBF;
 .benefits {
     display: flex;
     flex-wrap: nowrap;
-    gap: 16px;
+    gap: 24px;
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-bottom: 8px;
 }
     .benefits .item {
         width: calc((100% - 72px) / 4);
+    
       }
   
 .list-header {
