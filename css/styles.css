@@ -15,14 +15,15 @@ background: #FFF;
     border-bottom: 1px solid #e7e9fc;
 
 }
-.container-header {
+.container-header-container {
     display: flex;
-   
+    align-items: center;
+    justify-content: space-between;; 
   }
   .container {
-    width: 1158px;
-    margin: 0 auto;
+    max-width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
   }
   .navigation-container {
     display: flex;
@@ -39,6 +40,7 @@ background: #FFF;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
 }
 .logo-two {
     color:  #2E2F42;
@@ -49,6 +51,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px
 }
 .logo-three {
     color:#4D5AE5;
@@ -59,6 +62,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px
 }
 .logo-four { 
 color:#F4F4FD;
@@ -69,6 +73,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px
 }
 .navigation-list {
     display: inline-flex;
@@ -200,11 +205,15 @@ background-color: #404BBF;
     margin: 0;
     padding: 0;
     list-style: none;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
     .benefits .item {
         width: calc((100% - 72px) / 4);
-    
+        border-radius: 0px 0px 4px 4px;
+        border-top-left-radius: 0px; 
+        border-top-right-radius: 0px ; 
+        border-top-right-radius: 4px; 
+        border-bottom-left-radius:4px;
       }
   
 .list-header {
