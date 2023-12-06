@@ -16,12 +16,11 @@ background: #FFF;
 
 }
 .container-header-container {
-   
+    display: flex;
     align-items: center;
     justify-content: space-between;; 
   }
   .container {
-    display: flex;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -247,7 +246,8 @@ flex-shrink: 0;
     margin: 0 auto;
     padding: 0 16px;
     text-align: center;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    padding: 120px 0
 }
     .benefits-three {
         display: flex;
@@ -262,10 +262,11 @@ flex-shrink: 0;
    
     .benefits-three .team-item {
         width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
     }
-    .container-section-three {
+    .container {
         padding: 32px 0;
-        margin-bottom: 8px   
+     
     }
  .team-title {   
 color:#2E2F42;
@@ -277,6 +278,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 8px
 }
 .team-item {
 background-color:#FFFFFF ;
@@ -313,7 +315,8 @@ background-color:#FFFFFF ;
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 16px;
-    margin-bottom: 72px   
+    margin-bottom: 72px;
+   
 }
 .benefits-four {
     display: flex;
@@ -390,7 +393,7 @@ padding: 100px 0 ;
     
 }
 
-.container-footer{
+.container{
     display: inline-block;
     margin-bottom: 16px;   
 }
