@@ -291,13 +291,14 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
-
-
-
+    }
+.section-three-content {
+    padding: 32px 0
 }
+
 .team-item {
 background-color:#FFFFFF ;
-
+margin-bottom: 8px
 }
 .team-title-header
 {
