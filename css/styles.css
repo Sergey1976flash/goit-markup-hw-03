@@ -32,11 +32,7 @@ img {
     margin: 0 auto;
     
   }
-  .navigation-container {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-  }
+  
  
 .logo-one {
     color: #4D5AE5;
@@ -71,10 +67,15 @@ color:#F4F4FD;
 }
 .navigation-list {
     display: inline-flex;
-   
-   
-   
+    align-items: flex-start;
+    gap: 40px;
 }
+.navigation-container {
+    display: flex;
+  
+    align-items: center;
+
+  }
 .menu {
     text-decoration: none;
     display: block;
